@@ -1,0 +1,18 @@
+.app {
+	@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+	font-family: 'Epilogue', sans-serif;
+	@apply flex flex-col gap-[28px] md:gap-[48px] m-auto;
+}
+
+body {
+	--tw-text-opacity: 0.5;
+	background-color: rgb(255 241 242 / var(--tw-text-opacity));
+}
+
+.container {
+	@apply max-w-[1200px] px-5 m-auto;
+}
+
+.app::-webkit-scrollbar {
+	width: 0px;
+}
