@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Shop = ({ style }: { style: string }) => {
 	return (
 		<svg
