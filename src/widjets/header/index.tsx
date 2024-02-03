@@ -1,4 +1,4 @@
-import blackSecond from '../../shared/assets/imgs/logo/2blackLogo.png';
+import roseLogo from '../../shared/assets/imgs/logo/roseLogo.png';
 import Burger from '../../shared/components/svg/Burger';
 
 type Props = {
@@ -10,7 +10,7 @@ const Header = ({ setopenMenu }: Props) => {
 		<header className=' fixed top-0 z-50  backdrop-blur-xl w-full  '>
 			<div className='   flex items-center  justify-between py-5   m-auto px-5 md:px-10 max-w-[1450px] '>
 				<img
-					src={blackSecond}
+					src={roseLogo}
 					alt=''
 					className='w-[7em]  md:w-[10em] '
 				/>

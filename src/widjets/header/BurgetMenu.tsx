@@ -1,6 +1,5 @@
 import React from 'react';
 import blackSecond from '../../shared/assets/imgs/logo/2blackLogo.png';
-
 type Props = {
 	setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
 };
