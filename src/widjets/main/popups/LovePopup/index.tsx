@@ -44,7 +44,7 @@ const LovePopUp = ({ isShown, setIsShown }: Props) => {
 						onClick={() => setChangeImages((prev) => !prev)}
 						className='text-lg md:text-4xl font-bold  animate-bounce max-w-[80%] md:max-w-[60%] bg-white text-green-500 px-4 py-2 hover:cursor-pointer border  hover:brightness-110'
 					>
-						{changeImages ? 'Пишите' : 'Лучший секс на дому:'}
+						{changeImages ? 'Пишите' : 'Тысяча поцелуев по этому номеру:'}
 						<span className='text-red-500 animate-spin'>
 							{' '}
 							{changeImages ? '@maievsky' : '(050) 845-48-64'}

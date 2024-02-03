@@ -33,7 +33,7 @@ const FlowersPopUp = ({ isShown, setIsPopUpOpen, whichCard }: Props) => {
 					className='bg-gray-500 text-white px-4 py-2 rounded'
 					onClick={() => setIsPopUpOpen(false)}
 				>
-					{whichCard !== 6 ? 'Close' : 'Бля'}
+					{whichCard !== 6 ? 'Close' : 'Та господи'}
 				</button>
 			</div>
 		</div>
